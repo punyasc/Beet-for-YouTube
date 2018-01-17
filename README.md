@@ -1,7 +1,7 @@
 # Beet for YouTube
 A simple web app built to help you find song instrumentals on YouTube
 
-![BeetImage](https://raw.githubusercontent.com/punyasc/beet-for-youtube/screenshot.png)
+![BeetImage](https://raw.githubusercontent.com/punyasc/Beet-for-YouTube/screenshot.png )
 
 ## Setup
 * Press the Log In button at the top right corner
