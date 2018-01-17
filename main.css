@@ -1,0 +1,92 @@
+
+body {
+    height: 100%;
+    overflow: auto;
+    background-color: #8A357A;
+}
+
+a {
+    float:right;
+    color:rgb(226, 178, 217);
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+a:hover {
+    color:rgb(204, 131, 191);
+}
+
+a:visited {
+    font-style: nomal;
+    color:rgb(226, 178, 217);
+}
+
+.center {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+        
+}
+
+.searchButton {
+    background-color: #57214D;
+    border: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.searchButton:hover {
+    background-color: #3B1734;
+}
+
+.searchButton:focus {
+    background-color: black;
+}
+
+.searchTitle {
+    font-size: 100pt;
+    color: #B065A2;
+}
+
+.userEmail {
+    padding: 10px;
+    float:left;
+    color: rgb(226, 178, 217);
+}
+
+
+.form-control {
+    border: 0;
+    background-color: #B065A2;
+    color: #ffffff;
+    font-size: 20pt;
+    height: 50px;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   #8A357A;
+    opacity:  1;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:   #8A357A;
+    opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:   #8A357A;
+   opacity:  1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:   #8A357A;
+    opacity:  1;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color:   #8A357A;
+    opacity:  1;
+}
+
+.form-control::placeholder { /* Most modern browsers support this now. */
+    color:   #8A357A;
+    opacity:  1;
+}

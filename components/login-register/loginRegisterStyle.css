@@ -1,0 +1,44 @@
+
+.login {
+    margin: 10px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.loginContainer {
+    margin: 0 auto;
+    padding-top:100px;
+    width: 100%;
+}
+
+.buttonbox {
+    margin-top: 40px;
+    font-size: 0;
+    text-align: center;
+}
+
+.btn {
+    font-size: 15pt;
+    height: 50px;
+}
+
+.leftbox {
+    margin-right: 10px;
+    background-color: #57214D;
+    border: 0;
+    display: inline-block;
+    width: 120px;
+}
+
+.rightbox {
+    margin-left: 10px;
+    background-color: rgb(221, 175, 213);
+    display: inline-block;
+    width: 120px;
+}
+
+h2 {
+    opacity: 1.0;
+    color: rgb(255, 129, 129);
+}
+

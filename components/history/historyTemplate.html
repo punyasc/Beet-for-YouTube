@@ -1,0 +1,10 @@
+<link rel="stylesheet" type="text/css" href="components/history/historyStyle.css">
+<ul>
+    <li ng-repeat="videoItem in videoItems">
+        <md-card>
+            <h2>{{videoItem.title}}</h2>
+            <p>{{getDate(videoItem.timestamp)}}</p>
+            <a target="_blank" href="{{'https:youtube.com/watch?v=' + videoItem.id}}">Open on YouTube</a>
+        </md-card>
+    </li>
+</ul>

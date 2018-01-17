@@ -1,0 +1,9 @@
+ul {
+    padding-top: 50px;
+    padding-left:0;
+    list-style: none;
+}
+
+md-card {
+    padding: 20px 20px 20px 20px;
+}

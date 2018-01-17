@@ -1,0 +1,13 @@
+<link rel="stylesheet" type="text/css" href="components/login-register/loginRegisterStyle.css" />
+<div class="loginContainer">
+    <div class="form">
+        <input id="emailField" ng-model="emailField" type="text" class="form-control login" placeholder="Email" aria-label="...">
+        <input id="passwordField" ng-model="passwordField" type="password" class="form-control login" placeholder="Password" aria-label="...">
+        <h2 ng-bind="errorMsg" ng-if="showError" id="error" class="center">Log In</h2>
+        <div class="buttonbox">
+            <button ng-click="login()" class="leftbox btn btn-success">Login</button>
+            <button ng-click="register()" class="rightbox btn btn-basic">Register</button>
+        </div>
+    </div>
+    
+</div>

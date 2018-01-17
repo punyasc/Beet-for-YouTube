@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="/components/player/playerStyle.css">
+    <div class="topsearch center">
+        <div class="input-group">
+            <input ng-model="searchQuery" type="text" class="form-control" placeholder="Enter an artist" aria-label="...">
+            <div class="input-group-btn">
+                    <!-- Buttons -->
+                    <button ng-click="search()" class="btn btn-primary searchButton" type="button">
+                            <span class="glyphicon glyphicon-search"></span>
+                    </button>
+            </div>
+        </div>
+      </div>
+    <h1 class="searchTitle mini" ng-bind="nowPlayingTitle"></h1>
+  <div class="center">
+    <div class="videoContainer">
+            <youtube-video player-vars="playerVars" player-width="853" player-height="480" video-id="defaultVideo" player="myPlayer" class="ytplayer"></youtube-video>
+    </div>
+  
+  
+  <div class="playbackbuttons center">
+    <button ng-click="setLooping()" type="button" class="btn btn-player" aria-label="Loop Song" id="loopbutton">
+        <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+    </button>
+
+    <button ng-if="!isPlaying" ng-click="play()" type="button" class="btn btn-outline-primary btn-player" aria-label="Play">
+        <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+    </button>
+    <button ng-if="isPlaying" ng-click="pause()" type="button" class="btn btn-primary btn-player" aria-label="Pause">
+        <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+    </button>
+
+    <button ng-click="nextSong()" type="button" class="btn btn-player" aria-label="Next Song">
+        <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div id="player"></div>
+</div>
