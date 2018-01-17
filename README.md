@@ -4,6 +4,8 @@ A simple web app built to help you find song instrumentals on YouTube
 ![BeetImage](https://github.com/punyasc/Beet-for-YouTube/raw/master/screenshot.png)
 
 ## Get Started
+* Run `npm install http-server -g` then run `http-server .` inside the project root folder
+* In the browser, navigate to `localhost:8080`
 * Press the Log In button at the top right corner
 * Create an account using an email and password (this creates an account using *Google Firebase Auth*)
 * Your Beet account is now ready and will keep a log of instrumentals you've come across
